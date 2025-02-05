@@ -1,0 +1,90 @@
+/* Assignment-3 - COSC 2328 – Professor McCurry */
+/* Implemented by - Fabian Zavala-Ramirez */
+
+/* 
+
+Color Palette::
+    #ffe5ec lightest pink
+    #ffc2d1
+    #ffb3c6
+    #ff8fab
+    #fb6f92  Darkest Pink
+
+ */
+
+
+
+ @font-face {
+    font-family: 'genshin';
+    src: url(../font-families/genshin.ttf);
+    font-weight: normal;
+    font-style: normal;
+ }
+
+
+body{
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    overflow: auto;
+}
+
+
+#title-heading{
+    color: white;
+    background-color: #ffb3c6;
+    padding: 10px;
+}
+
+
+.data{
+    background-color: #ffc2d1;
+    padding: 10px;
+}
+
+h1,h2{
+    font-family: 'genshin';
+}
+
+h1{
+    font-size: 75px;
+}
+
+h2{ 
+    font-size: 45px;
+}
+
+.header-images {
+    width: 300px;
+    height: auto;
+    /* background-color: #ffe5ec; */
+    padding: 10px;
+}
+
+table, th, tr, td{
+    border: 5px solid #ffe5ec;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+th{
+    font-family: 'genshin';
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+
+}
+
+a:link{
+    color: white;
+}
+
+a:hover{
+    color: #ffe5ec;
+}
+
+a:visited{
+    color: #fb6f92;
+}

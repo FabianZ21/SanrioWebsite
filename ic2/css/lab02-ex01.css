@@ -1,0 +1,37 @@
+
+body{
+    font-family: Georgia;
+    background-color: linen;
+    margin: 0;
+    padding: 10px;
+}
+
+h1, h2{
+    font-family: Trebuchet MS;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin: 0 px;
+    color: darkolivegreen;
+}
+
+article {
+    margin: 5px;
+    background-color: orange;
+    box-shadow: 8px 8px 2px silver;
+    padding: 15x;
+    width: 800px;
+}
+
+figure{
+    margin: 5px; 
+}
+
+figcaption{
+    font-style: italic;
+    font-size: 14px;
+    color: greenyellow;
+}
+
+p {
+    margin-left: 5px;
+}
