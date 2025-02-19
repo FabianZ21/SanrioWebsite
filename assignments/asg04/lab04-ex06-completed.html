@@ -1,0 +1,54 @@
+   <!-- In Class - Assignment 4 – ex 06 – COSC 2328 – Professor McCurry -->
+   <!-- Implemented by - Fabian Zavala-Ramirez -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Asg 4 - ex 06</title>
+    <style>
+      body {
+        background-color: #f0f4f8;
+      }
+      .customText{
+        border-width: 5px;
+        color: blue;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        background-color: rgb(255, 224, 229);
+      }
+      .customBtn{
+        background-color: rgb(255, 177, 255);
+        border-color: blueviolet;
+        border-width: 7px;
+        color: blueviolet;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+      }
+
+    </style>
+  </head>
+  <body>
+    <form>
+      <h2>Default control appearance</h2>
+      <input type="text" placeholder="placeholder" />
+      <button>Click</button>
+
+      <h2>Customized controls</h2>
+      <input
+        type="text"
+        class="customText roundedText"
+        placeholder="placeholder"
+      />
+      <input
+        type="text"
+        class="customText borderedText"
+        placeholder="placeholder"
+      />
+      <p>
+        <button class="customBtn btnA">Click</button>
+        <button class="customBtn btnB">Secondary A</button>
+        <button class="customBtn btnB shadowed">Secondary B</button>
+      </p>
+    </form>
+  </body>
+</html>

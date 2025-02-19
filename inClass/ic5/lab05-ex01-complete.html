@@ -1,0 +1,46 @@
+<!-- IC 5 – COSC 2328-<your section number> – Professor McCurry -->
+<!-- Implemented by: Fabian Zavala-Ramirez -->
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+    <link rel="stylesheet" href="css/ic5styles.css">
+    <script src="js/ic5sc.js" defer></script>
+</head>
+
+<body>
+    <form id="jobApplicationForm" action="#" method="post" onsubmit="displaySubmission(event)">
+        <!-- Full Name Input -->
+        <label for="fullName">Full Name:</label>
+        <input type="text" id="fullName" name="fullName" required>
+
+        <!-- Email Input -->
+         <label for="email">Email:</label>
+         <input type="email" id="email" name="email" required>
+
+         <!-- Resume -->
+        <label for="resume">Resume (PDF):</label>
+        <input type="file" id="resume" name="resume" accept=".pdf" required>
+
+        <!-- Cover Letter -->
+         <label for="coverLetter">Cover Letter:</label>
+         <textarea id="coverLetter" name="coverLetter" rows="4" required></textarea>
+
+         <input type="submit" value="Submit Application">
+    </form>
+    
+    <div id="submissionResult"></div>
+
+</body>
+
+
+
+
+
+
+</html>
